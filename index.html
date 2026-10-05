@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    name="description"
+    content="Isadora Saboia Advocacia — orientação jurídica estratégica, atendimento personalizado e atuação com discrição."
+  >
+<link rel="icon" type="image/png" href="src/nf.png">
+  <title>Isadora Saboia Advocacia</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet"
+>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-conteudo">
+    <img src="src/nf.png" alt="" class="loader-logo">
+    <span class="loader-nome">Isadora Saboia</span>
+    <span class="loader-linha"></span>
+  </div>
+</div>
+  <!-- Modelo conceitual: substituir dados e contatos antes de uso real. -->
+
+  <a
+    class="whatsapp-flutuante"
+    href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Agendar consulta pelo WhatsApp"
+  >
+    <span aria-hidden="true">☏</span>
+    <span>Agendar consulta</span>
+  </a>
+
+  <button
+    class="botao-topo"
+    id="botao-topo"
+    type="button"
+    aria-label="Voltar ao início"
+  >
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <header class="cabecalho">
+    <a class="marca" href="#inicio" aria-label="Ir para o início">
+      <span class="marca-monograma"><img src="src/nf.png" alt="logo"></span>
+      <span class="marca-texto">
+        Isadora Saboia
+        <small>Advocacia</small>
+      </span>
+    </a>
+
+    <nav class="navegacao-desktop" aria-label="Navegação principal">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#atuacao">Áreas de atuação</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+      <a class="botao botao-primario botao-menu" href="#contato">
+        Falar comigo
+      </a>
+    </nav>
+
+    <button
+      class="menu-hamburguer"
+      id="menu-btn"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="menu-mobile" id="menu-mobile" aria-label="Menu mobile">
+    <a href="#sobre">Sobre mim</a>
+    <a href="#atuacao">Áreas de atuação</a>
+    <a href="#faq">Dúvidas</a>
+    <a href="#localizacao">Localização</a>
+    <a href="#contato">Falar comigo</a>
+  </nav>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-conteudo">
+        <div class="hero-texto">
+          <p class="etiqueta">Isadora Saboia Advocacia</p>
+
+<h1 class="hero-titulo">
+  <span class="hero-titulo-principal">Proteção jurídica</span>
+  <span class="hero-titulo-destaque">para decisões importantes.</span>
+</h1>
+
+          <p class="hero-descricao">
+            Orientação jurídica estratégica, atendimento personalizado
+            e uma atuação construída com técnica, discrição e clareza.
+          </p>
+
+          <div class="hero-botoes">
+            <a class="botao botao-primario" href="#contato">
+              Agendar consulta
+            </a>
+
+            <a class="link-secao" href="#atuacao">
+              Conhecer áreas de atuação
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-imagem">
+          <img
+            src="src/draisa.jpg"
+            alt="Advogada em ambiente profissional"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS DE ATUAÇÃO EM DESTAQUE -->
+    <section class="secao atalhos-atuacao" aria-label="Áreas de atuação">
+      <div class="grade-atalhos">
+        <a class="atalho-card" href="#atuacao">
+          <span class="atalho-icone" aria-hidden="true">⌂</span>
+          <h2>Direito Civil</h2>
+          <p>Relações patrimoniais, contratos e responsabilidades.</p>
+        </a>
+
+        <a class="atalho-card" href="#atuacao">
+          <span class="atalho-icone" aria-hidden="true">♧</span>
+          <h2>Direito de Família</h2>
+          <p>Orientação em decisões que envolvem relações familiares.</p>
+        </a>
+
+        <a class="atalho-card" href="#atuacao">
+          <span class="atalho-icone" aria-hidden="true">◇</span>
+          <h2>Direito Imobiliário</h2>
+          <p>Segurança jurídica em negócios e contratos imobiliários.</p>
+        </a>
+
+        <a class="atalho-card" href="#atuacao">
+          <span class="atalho-icone" aria-hidden="true">◌</span>
+          <h2>Direito Empresarial</h2>
+          <p>Suporte jurídico para empresas e empreendedores.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="secao sobre fade-in" id="sobre">
+      <div class="sobre-conteudo">
+        <div class="sobre-texto">
+          <p class="etiqueta">Sobre mim</p>
+
+          <h2>
+            Atendimento jurídico com escuta, estratégia e responsabilidade.
+          </h2>
+
+          <p>
+            Minha atuação é baseada na compreensão cuidadosa de cada caso,
+            na análise técnica dos riscos e na construção de caminhos
+            jurídicos coerentes com a realidade de cada cliente.
+          </p>
+
+          <p>
+            O objetivo é oferecer orientação clara desde o primeiro
+            contato, com discrição e acompanhamento próximo durante as
+            etapas necessárias.
+          </p>
+
+          <div class="sobre-dados">
+            <div>
+              <strong>OAB</strong>
+              <span>00.000/UF <em>· Demonstrativo</em></span>
+            </div>
+
+            <div>
+              <strong>Atuação</strong>
+              <span>Consultiva e contenciosa</span>
+            </div>
+          </div>
+
+          <a class="botao botao-secundario" href="#contato">
+            Conversar sobre meu caso
+          </a>
+        </div>
+
+        <div class="sobre-imagem">
+          <img
+            src="src/draisa2.jpg"
+            alt="Dra. Isadora em seu escritório"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS COMPLETAS -->
+    <section class="secao atuacao fade-in" id="atuacao">
+      <div class="secao-cabecalho">
+        <p class="etiqueta">Áreas de atuação</p>
+        <h2>Estratégia jurídica para diferentes momentos da vida.</h2>
+        <p>
+          As áreas abaixo são demonstrativas e devem ser adaptadas à
+          atuação real da profissional.
+        </p>
+      </div>
+
+      <div class="grade-atuacao">
+        <article class="atuacao-card">
+          <div class="atuacao-imagem">
+            <img
+              src="src/social.jpg"
+              alt="Documentos e ambiente de trabalho relacionados ao Direito Civil"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="atuacao-info">
+            <p class="atuacao-numero">01</p>
+            <h3>Direito Civil</h3>
+            <p>
+              Contratos, responsabilidade civil, relações patrimoniais e
+              outras questões jurídicas do cotidiano.
+            </p>
+            <a class="link-secao" href="#contato">
+              Saber mais
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="atuacao-card">
+          <div class="atuacao-imagem">
+            <img
+              src="src/familia.jpg"
+              alt="Ambiente acolhedor relacionado ao Direito de Família"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="atuacao-info">
+            <p class="atuacao-numero">02</p>
+            <h3>Direito de Família</h3>
+            <p>
+              Orientação em divórcio, guarda, partilha, planejamento
+              patrimonial e sucessões.
+            </p>
+            <a class="link-secao" href="#contato">
+              Saber mais
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="atuacao-card">
+          <div class="atuacao-imagem">
+            <img
+              src="src/imob.jpg"
+              alt="Arquitetura relacionada ao Direito Imobiliário"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="atuacao-info">
+            <p class="atuacao-numero">03</p>
+            <h3>Direito Imobiliário</h3>
+            <p>
+              Análise de contratos, negociações, compra, venda e
+              segurança jurídica em negócios imobiliários.
+            </p>
+            <a class="link-secao" href="#contato">
+              Saber mais
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="atuacao-card">
+          <div class="atuacao-imagem">
+            <img
+              src="src/empresarial.jpg"
+              alt="Ambiente corporativo relacionado ao Direito Empresarial"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="atuacao-info">
+            <p class="atuacao-numero">04</p>
+            <h3>Direito Empresarial</h3>
+            <p>
+              Consultoria para empresas, contratos comerciais e decisões
+              estratégicas de empreendedores.
+            </p>
+            <a class="link-secao" href="#contato">
+              Saber mais
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MÉTODO -->
+    <section class="secao metodo fade-in" id="metodo">
+      <div class="metodo-conteudo">
+        <div class="metodo-texto">
+          <p class="etiqueta etiqueta-clara">Como funciona</p>
+
+          <h2>
+            Um primeiro contato claro pode mudar a forma de conduzir
+            um problema.
+          </h2>
+
+          <p>
+            Cada demanda exige uma análise própria. Por isso, o
+            atendimento segue uma sequência simples e transparente.
+          </p>
+        </div>
+
+        <div class="grade-metodo">
+          <article class="metodo-item">
+            <span>01</span>
+            <div>
+              <h3>Escuta inicial</h3>
+              <p>Compreensão do contexto e dos objetivos.</p>
+            </div>
+          </article>
+
+          <article class="metodo-item">
+            <span>02</span>
+            <div>
+              <h3>Análise técnica</h3>
+              <p>Identificação de riscos e possibilidades jurídicas.</p>
+            </div>
+          </article>
+
+          <article class="metodo-item">
+            <span>03</span>
+            <div>
+              <h3>Estratégia</h3>
+              <p>Definição dos próximos passos adequados ao caso.</p>
+            </div>
+          </article>
+
+          <article class="metodo-item">
+            <span>04</span>
+            <div>
+              <h3>Acompanhamento</h3>
+              <p>Condução responsável durante o trabalho contratado.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="secao faq fade-in" id="faq">
+      <div class="secao-cabecalho">
+        <p class="etiqueta">Dúvidas frequentes</p>
+        <h2>Informação clara antes de cada decisão.</h2>
+      </div>
+
+      <div class="lista-faq">
+        <details class="item-faq">
+          <summary>
+            Como funciona a primeira consulta?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            A primeira consulta é destinada a compreender o contexto
+            apresentado, analisar as informações iniciais e orientar
+            sobre os próximos passos possíveis.
+          </p>
+        </details>
+
+        <details class="item-faq">
+          <summary>
+            Quais documentos devo levar?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Os documentos dependem da natureza da demanda. Após o
+            primeiro contato, será possível orientar quais informações
+            são relevantes para a análise inicial.
+          </p>
+        </details>
+
+        <details class="item-faq">
+          <summary>
+            É possível fazer atendimento online?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            A possibilidade de atendimento remoto depende do tipo de
+            caso e da disponibilidade profissional. Entre em contato
+            para verificar a modalidade adequada.
+          </p>
+        </details>
+
+        <details class="item-faq">
+          <summary>
+            As informações compartilhadas são confidenciais?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            As informações apresentadas são tratadas com discrição e
+            confidencialidade, observando os deveres profissionais
+            aplicáveis à advocacia.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section class="secao localizacao fade-in" id="localizacao">
+      <div class="localizacao-cabecalho">
+        <p class="etiqueta">Atendimento</p>
+        <h2>Um espaço reservado para uma conversa cuidadosa.</h2>
+        <p>
+          Atendimento presencial e remoto conforme disponibilidade.
+          Endereço e horários serão atualizados na versão oficial.
+        </p>
+      </div>
+
+      <div class="localizacao-conteudo">
+        <div class="localizacao-info">
+          <div class="localizacao-item">
+            <span aria-hidden="true">⌖</span>
+            <div>
+              <strong>Endereço</strong>
+              <p>Rua Exemplo, 100 — São Paulo, SP</p>
+            </div>
+          </div>
+
+          <div class="localizacao-item">
+            <span aria-hidden="true">◷</span>
+            <div>
+              <strong>Horário</strong>
+              <p>Segunda a sexta, das 9h às 18h</p>
+            </div>
+          </div>
+
+          <a class="botao botao-secundario" href="#contato">
+            Solicitar atendimento
+          </a>
+        </div>
+
+        <div class="mapa-wrapper">
+          <!-- Trocar pelo mapa oficial antes da publicação. -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d-46.6333!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1722030000000!5m2!1spt-BR!2sbr"
+            title="Mapa da localização do escritório"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section class="secao formulario-contato fade-in" id="contato">
+      <div class="contato-conteudo">
+        <div class="contato-texto">
+          <p class="etiqueta etiqueta-clara">Primeiro contato</p>
+
+          <h2>
+            Vamos conversar sobre o seu caso?
+          </h2>
+
+          <p>
+            Envie uma mensagem com informações iniciais. O atendimento
+            será direcionado para uma conversa mais detalhada.
+          </p>
+
+          <p class="contato-aviso">
+            O envio deste formulário não constitui consulta ou
+            aconselhamento jurídico.
+          </p>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="nome">Seu nome</label>
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Como podemos chamar você?"
+            required
+          >
+
+          <label for="whats">WhatsApp</label>
+          <input
+            id="whats"
+            name="whats"
+            type="tel"
+            placeholder="(00) 00000-0000"
+            required
+          >
+
+          <label for="assunto">Assunto principal</label>
+          <select id="assunto" name="assunto">
+            <option value="Direito Civil">Direito Civil</option>
+            <option value="Direito de Família">
+              Direito de Família
+            </option>
+            <option value="Direito Imobiliário">
+              Direito Imobiliário
+            </option>
+            <option value="Direito Empresarial">
+              Direito Empresarial
+            </option>
+            <option value="Outro assunto">Outro assunto</option>
+          </select>
+
+          <label for="msg">Mensagem inicial</label>
+          <textarea
+            id="msg"
+            name="msg"
+            placeholder="Conte brevemente como podemos ajudar."
+            required
+          ></textarea>
+
+          <button class="botao botao-primario botao-form" type="submit">
+            Enviar mensagem
+            <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="form-observacao">
+            Você será direcionado ao WhatsApp para continuar o contato.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-conteudo">
+      <div class="rodape-marca">
+        <a class="marca" href="#inicio">
+          <span class="marca-monograma"><img src="src/nf.png" alt="logo"></span>
+          <span class="marca-texto">
+            Helena Valença
+            <small>Advocacia</small>
+          </span>
+        </a>
+
+        <p>
+          Orientação jurídica com técnica, discrição e atendimento
+          personalizado.
+        </p>
+      </div>
+
+      <div class="rodape-coluna">
+        <h3>Navegação</h3>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#atuacao">Áreas de atuação</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="rodape-coluna">
+        <h3>Atuação</h3>
+        <a href="#atuacao">Direito Civil</a>
+        <a href="#atuacao">Direito de Família</a>
+        <a href="#atuacao">Direito Imobiliário</a>
+        <a href="#atuacao">Direito Empresarial</a>
+      </div>
+
+      <div class="rodape-coluna">
+        <h3>Contato</h3>
+        <p>Rua Exemplo, 100</p>
+        <p>São Paulo, SP</p>
+        <p>(11) 99999-9999</p>
+        <p>contato@helenavalenca.adv.br</p>
+      </div>
+    </div>
+
+    <div class="rodape-base">
+      <p>
+        © 2026 Isadora Saboia Advocacia. Todos os direitos reservados.
+      </p>
+
+      <p>
+        Projeto conceitual para fins de demonstração visual.
+      </p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
